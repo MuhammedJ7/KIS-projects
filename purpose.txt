@@ -1,0 +1,3 @@
+The point of this repository is to give an array of small python coding projects one can read over or emulate themselves
+These are simple projects, such the name level 1 and they only take or should take about 30mins to read over and be able to design
+your own versions. 
