@@ -27,4 +27,5 @@ check_guess(guess3, 'blue whale')
 
 print('Your score is ' + str(score))
 
-#gives an incorrect output when you give the right input for the question whihc land animal is biggest
+#Figured out the problem wasnt the code, it was the fact that i pressed space after my answer 'blue whale' so it registered 
+# as 'blue whale ' which is incorrect
