@@ -25,3 +25,5 @@ special_char = random.choice(string.punctuation)
 password = adjective + noun + str(number) + special_char
 
 print('Your new password is:', password)
+
+#Basic version
