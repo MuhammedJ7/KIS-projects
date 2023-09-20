@@ -18,3 +18,12 @@ nouns = nouns = ["apple", "dog", "cat", "car", "house", "book", "computer", "flo
 
 
 print ('Welcome to your own personal password picker')
+
+
+adjective = random.choice(adjectives)
+noun = random.choice(nouns)
+number = random.randrange(0, 100)
+special_char = random.choice(string.punctuation)
+password = adjective + noun + str(number) + special_char
+
+print('Your new password is: %s' % password)
