@@ -9,6 +9,12 @@ characters to assemble each password"""
 import random 
 import string
 
+FantasyAdjectives = ['mythical','eerie','magic','supernatural', 'dreamlike', 'ethereal','fantastical','gothic','mytholgical',
+                     'mystical','imaginary','dark', 'wonderful','enigmatic','fabulous','strange','beautiful','perplexing','dazzling',
+                     'utopian','proud', 'brave']
+
+nouns = nouns = ["apple", "dog", "cat", "car", "house", "book", "computer", "flower", "friend", "city", "tree", "music",
+                  "beach", "sun", "river", "mountain", "child", "school", "food", "movie", "job", "money", "time", "heart"]
 
 
 print ('Welcome to your own personal password picker')
