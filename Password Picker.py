@@ -17,7 +17,7 @@ nouns = ["apple", "dog", "cat", "car", "house", "book", "computer", "flower", "f
 
 print ('Welcome to your own personal password picker')
 
-while True 
+while True:
 
     adjective = random.choice(FantasyAdjectives )
     noun = random.choice(nouns)
@@ -28,6 +28,6 @@ while True
     print('Your new password is:', password)
 
     response = input('Would you like another password? Type y or n: ')
-    if response = 'n':
+    if response == 'n':
         break
 
