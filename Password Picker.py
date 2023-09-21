@@ -17,13 +17,17 @@ nouns = ["apple", "dog", "cat", "car", "house", "book", "computer", "flower", "f
 
 print ('Welcome to your own personal password picker')
 
+while True 
 
-adjective = random.choice(FantasyAdjectives )
-noun = random.choice(nouns)
-number = random.randrange(0, 100)
-special_char = random.choice(string.punctuation)
-password = adjective + noun + str(number) + special_char
+    adjective = random.choice(FantasyAdjectives )
+    noun = random.choice(nouns)
+    number = random.randrange(0, 100)
+    special_char = random.choice(string.punctuation)
 
-print('Your new password is:', password)
+    password = adjective + noun + str(number) + special_char
+    print('Your new password is:', password)
 
-#Basic version
+    response = input('Would you like another password? Type y or n: ')
+    if response = 'n':
+        break
+
