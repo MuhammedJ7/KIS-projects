@@ -10,7 +10,7 @@ FantasyAdjectives = ['mythical','eerie','magic','supernatural', 'dreamlike', 'et
 words = ['pizza', 'fairy', 'teeth', 'shirt',
         'otter', 'plane']
 
-secret.word = random.choice(words)
+secret_word = random.choice(words)
 clue = list('?????')
 
 heart_symbol = u'\u2764'
@@ -22,7 +22,19 @@ the code uses a function to update the clue. You’ll make that function, then c
 
 def update_clue(guessed_letter, secret_word, clue):
     index = 0
+
+    """If a letter matches, the program inserts it into the clue, using index to find the right position in the list of
+question marks."""
     while index < len(secret_word):
         if guessed_letter == secret_word[index]:
             clue[index] = guessed_letter
         index = index + 1
+
+while lives >0
+    print (clue)
+    print('Lives left: ' heart_symbol *lives)
+    guess = input("Guess a letter or if want, the whole word")
+
+    if guess == secret_word
+        guessed_word_correctly = True
+        break
