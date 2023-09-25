@@ -30,7 +30,7 @@ question marks."""
             clue[index] = guessed_letter
         index = index + 1
 
-while lives > 0
+while lives > 0:
     print (clue)
     print('Lives left: ' heart_symbol *lives) #repeating a string
     guess = input("Guess a letter or if want, the whole word")
