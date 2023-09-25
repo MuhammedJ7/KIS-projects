@@ -33,7 +33,7 @@ question marks."""
 while lives > 0:
     print (clue)
     print('Lives left: '+ heart_symbol*lives) #repeating a string
-    guess = input("Guess a letter or if want, the whole word")
+    guess = input("Guess a letter or if you want, the whole word ")
 
     if guess == secret_word:
         guessed_word_correctly = True
