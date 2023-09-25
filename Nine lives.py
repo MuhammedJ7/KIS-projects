@@ -45,7 +45,7 @@ while lives > 0:
         print ("Sorry but that is incorrect, you lost a life ")
         lives =lives-1
         
-if guessed_word_correctly : True
-    print("Well done , you won! The secret word was"+ secret_word)
+if guessed_word_correctly : 
+    print("Well done , you won! The secret word was" + secret_word)
 else :
     print("Oh no you lost, the secret word was "+ secret_word)
