@@ -50,4 +50,4 @@ if guessed_word_correctly :
 else :
     print("Oh no you lost, the secret word was "+ secret_word)
 
-#Final Version
+#Basic version
