@@ -7,8 +7,7 @@ lives = 9
 FantasyAdjectives = ['mythical','eerie','magic','supernatural', 'dreamlike', 'ethereal','fantastical','gothic','mytholgical',
                      'mystical','imaginary','dark', 'wonderful','enigmatic','fabulous','strange','beautiful','perplexing','dazzling',
                      'utopian','proud', 'brave']
-words = ['pizza', 'fairy', 'teeth', 'shirt',
-        'otter', 'plane']
+words = ['pizza', 'fairy', 'teeth', 'shirt','otter', 'plane','brush','horse','light']
 
 secret_word = random.choice(words)
 clue = list('?????')
@@ -49,5 +48,3 @@ if guessed_word_correctly :
     print("Well done , you won! The secret word was" + secret_word)
 else :
     print("Oh no you lost, the secret word was "+ secret_word)
-
-#Basic version
