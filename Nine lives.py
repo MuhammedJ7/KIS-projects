@@ -29,6 +29,9 @@ question marks."""
             clue[index] = guessed_letter
         index = index + 1
 
+difficulty = input('Choose difficulty (type 1, 2 or 3):\n 1 Easy\n 2 Normal\n Hard\n')
+difficulty = int(difficulty)
+
 while lives > 0:
     print (clue)
     print('Lives left: '+ heart_symbol*lives) #repeating a string
