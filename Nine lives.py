@@ -32,6 +32,14 @@ question marks."""
 difficulty = input('Choose difficulty (type 1, 2 or 3):\n 1 Easy\n 2 Normal\n Hard\n')
 difficulty = int(difficulty)
 
+if difficulty == 1:
+    lives = 12
+elif difficulty == 2:
+    lives = 9
+elif difficulty ==3:
+    lives = 6
+
+
 while lives > 0:
     print (clue)
     print('Lives left: '+ heart_symbol*lives) #repeating a string
