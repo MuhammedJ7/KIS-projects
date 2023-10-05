@@ -29,7 +29,7 @@ question marks."""
             clue[index] = guessed_letter
         index = index + 1
 
-difficulty = input('Choose difficulty (type 1, 2 or 3):\n 1 Easy\n 2 Normal\n Hard\n')
+difficulty = input('Choose difficulty (type 1, 2 or 3):\n 1 Easy\n 2 Normal\n 3 Hard\n')
 difficulty = int(difficulty)
 
 if difficulty == 1:
