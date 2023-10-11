@@ -10,7 +10,11 @@ FantasyAdjectives = ['mythical','eerie','magic','supernatural', 'dreamlike', 'et
 words = ['pizza', 'fairy', 'teeth', 'shirt','otter', 'plane','brush','horse','light']
 
 secret_word = random.choice(words)
-clue = list('?????')
+clue = [] #Words of varying length
+index = 0
+while index < len(secret_word):
+    clue.append('?')
+    index = index + 1
 
 heart_symbol = u'\u2764'
 
@@ -29,7 +33,7 @@ question marks."""
             clue[index] = guessed_letter
         index = index + 1
 
-difficulty = input('Choose difficulty (type 1, 2 or 3):\n 1 Easy\n 2 Normal\n 3 Hard\n')
+difficulty = input('Choose difficulty (type 1, 2 or 3):\n 1 Easy\n 2 Normal\n 3  Hard\n')
 difficulty = int(difficulty)
 
 if difficulty == 1:
@@ -59,3 +63,4 @@ if guessed_word_correctly :
     print("Well done , you won! The secret word was" + secret_word)
 else :
     print("Oh no you lost, the secret word was "+ secret_word)
+
