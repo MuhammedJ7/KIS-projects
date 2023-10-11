@@ -7,7 +7,9 @@ lives = 9
 FantasyAdjectives = ['mythical','eerie','magic','supernatural', 'dreamlike', 'ethereal','fantastical','gothic','mytholgical',
                      'mystical','imaginary','dark', 'wonderful','enigmatic','fabulous','strange','beautiful','perplexing','dazzling',
                      'utopian','proud', 'brave']
-words = ['pizza', 'fairy', 'teeth', 'shirt','otter', 'plane','brush','horse','light']
+words = ['pizza', 'fairy', 'teeth', 'shirt','otter', 'plane','brush','horse','light','mythical','eerie','magic','supernatural', 'dreamlike', 'ethereal','fantastical','gothic','mytholgical',
+                     'mystical','imaginary','dark', 'wonderful','enigmatic','fabulous','strange','beautiful','perplexing','dazzling',
+                     'utopian','proud', 'brave']
 
 secret_word = random.choice(words)
 clue = [] #Words of varying length
@@ -64,3 +66,5 @@ if guessed_word_correctly :
 else :
     print("Oh no you lost, the secret word was "+ secret_word)
 
+#code works but the game doesnt end until u type out the whole word even if u have guessed the last latter
+#need to make ending smarter 
