@@ -1,0 +1,21 @@
+def plusMinus(arr):
+    # Write your code here
+    positiveValues = 0
+    negativeValues = 0 
+    zeroValues = 0
+    
+    for n in arr:
+        if n > 0 :
+            positiveValues +=1
+        elif n < 0 :
+            negativeValues +=1
+        else :
+            zeroValues +=1
+    total=len(arr)
+    posRatio = positiveValues/total
+    negRatio =negativeValues/total 
+    zeroRatio = zeroValues/total
+    
+    print(posRatio)
+    print(negRatio)
+    print(zeroRatio)
